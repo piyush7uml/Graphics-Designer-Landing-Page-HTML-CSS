@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@200;400;500&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+
+.container {
+    width: 95%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: start;
+}
+
+
+/* ------------------------------ */
+/* ---------LEFT-SECTION----------- */
+/* ------------------------------ */
+
+.left {
+    display: inline-block;
+    width: 40%;
+    min-height: 100vh;
+    background-image: url(./assets//lady1.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.logo img {
+    display: inline-block;
+    width:8rem;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    color: #ffffff;
+}
+
+/* ------------------------------ */
+/* ---------RIGHT-SECTION----------- */
+/* ------------------------------ */
+.right {
+    display: inline-block;
+    width: 60%;
+    margin-left: 4rem;
+    color: #000000;
+}
+
+nav {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+
+}
+
+nav div {
+    display: inline-block;
+    width: 22rem;  
+    border: 1px solid #333333;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    
+    color: #909090;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: #575756;
+}
+
+
+
+
+/* ------------------------------ */
+/* ---------HEADER----------- */
+/* ------------------------------ */
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Merriweather', serif;
+    margin-top: 3rem;
+}
+
+.heading-info {
+    display: flex;
+}
+
+.heading-info p {
+  position: relative;
+  top: 13rem;
+  left:10rem;
+  color: #575756;
+  font-size: 1.5rem;
+}
+
+.heading-info h1 {
+    font-family: 'Merriweather';
+    font-size: 8rem;
+}
+
+.heading-info h1 span:first-child {
+      display: inline-block;
+      color: white;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    
+}
+
+.heading-info h1 span:last-child {
+    display: inline-block;
+    color:#333333;
+    position: relative;
+    bottom: 2.5rem;
+    left: 8rem;
+}
+
+.check-btn {
+    text-align: end;
+}
+
+.check-btn button {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    font-size: 1.1rem;
+    color: #ffffff;
+    background-color: #333333;
+    border: none;
+}
+
+/* ------ICONS(FONT AWESOME)------- */
+
+.social-media p {
+     margin: 2rem 0;
+}
+
+.size {
+    font-size: 1.2rem;
+}
+
+.quote-size {
+    font-size: 3rem;
+    color: #333333;
+}
+
+
+/* ------------------------------ */
+/* ---------INFO-SECTION----------- */
+/* ------------------------------ */
+
+.info-section {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+}
+
+.skills {
+    width: 25%;
+    position: relative;
+    right: 2rem;
+    
+}
+
+.skills span {
+    display: inline-block;
+    font-size: 4rem;
+    padding-right: 1rem;
+    color: #909090;
+}
+
+.skills p:first-child span {
+    display: inline-block;
+    font-size: 4.5rem;
+    padding-right: 1rem;
+    color: #000000;
+}
+
+
+.skills p {
+     font-size: 1.2rem;
+     font-weight: 200;
+     color: #414141;
+}
+
+.skills p:first-child {
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: #000000;
+}
+
+.arrow-down {
+    width: 10%;
+    font-size: 6rem;
+    font-weight: 100;
+}
+
+.info-details {
+    width: 50%;
+    margin-top: 2.5rem;
+}
+
+.info-details img{
+       display: inline-block;
+       width: 100%;
+       
+}
+
+
+.line {
+    position: relative;
+    top: 4.5rem;
+    left: 2.3rem;
+    height: 23rem;
+    border: 1px solid #959594;
+}
+
+.info-details p {
+    word-spacing: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+.arrow-down {
+    position: relative;
+    top: 16rem;
+    width: 20px;
+    height: 1px;
+    background: black;
+    transform: rotate(55deg);
+    transform-origin: 0% 0%;
+    color: black;
+  }
+  .arrow-down:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 100%;
+    background: black;
+    transform: rotate(-110deg);
+    transform-origin: 0% 100%;
+  }
+
+  .line2 {
+    position: relative;
+    top: 11rem;
+    right: 9px;
+    height: 6rem;
+    border-right: 1px solid black;
+  }
