@@ -255,3 +255,309 @@ nav a:hover {
     height: 6rem;
     border-right: 1px solid black;
   }
+
+
+
+  /* ------------------------------------------------------------ */
+  /* ----------------RESPONSIVE USING MEDIA QUERIES-------------- */
+  /* ------------------------------------------------------------ */
+
+  /* ----------------LARGER-SCREEN-------------------- */
+
+
+  @media screen and (max-width:1280px) {
+
+    /* ------NAVBAR------- */
+    nav div {
+        display: none;
+    }
+
+     /* ------RIGHT------- */
+
+    .heading-info p {
+        position: relative;
+        top: 17rem;
+        left:6rem;
+        color: #575756;
+        font-size: 1.1rem;
+      }
+
+      .check-btn {
+        margin-top: 2rem;
+    }
+
+    .info-section .line {
+        display: none;
+    }
+
+    .skills {
+        width: 80%;
+        position: static;
+        margin: 3rem auto;
+        
+        
+    }
+    .arrow-down {
+        position: relative;
+        top: 20rem;
+        left: 1rem;
+        width: 20px;
+        height: 1px;
+        background: black;
+        transform: rotate(55deg);
+        transform-origin: 0% 0%;
+        color: black;
+      }
+      .arrow-down:after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+        left: 100%;
+        background: black;
+        transform: rotate(-110deg);
+        transform-origin: 0% 100%;
+      }
+    
+      .line2 {
+        position: relative;
+        top: 15rem;
+        left: 7px;
+        height: 6rem;
+        border-right: 1px solid black;
+      }
+
+}
+  
+
+/* ----------------LARGE-SCREEN-------------------- */
+
+
+  @media screen and (max-width:980px) {
+
+
+    .container {
+        width: 90%;
+        margin-right: 0;
+        margin: 0 auto;
+        display: block;
+        
+    }
+
+      /* -------------left-section-------------- */
+
+    .left {
+        display: block;
+        width: 100%;
+        min-height: 0;
+        height: 20%;
+        background-image:none;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    /* -------------right-section-------------- */
+    .right {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        color: #000000;
+    }
+    
+    .heading-info p {
+        position: relative;
+        top: 12rem;
+        left:8rem;
+        color: #575756;
+        font-size: 1.1rem;
+      }
+      
+      .heading-info h1 {
+          font-family: 'Merriweather';
+          font-size: 6rem;
+      }
+      
+      .heading-info h1 span:first-child {
+            display: inline-block;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+          
+      }
+      
+      .heading-info h1 span:last-child {
+          display: inline-block;
+          color:#333333;
+          position: relative;
+          bottom: 2rem;
+          left: 8rem;
+      }
+
+
+      .check-btn {
+        text-align: start;
+    }
+
+   /* -------------right-info-section-------------- */
+
+    .info-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    
+    .info-section .line {
+        display: none;
+    }
+
+    .skills {
+        width: 80%;
+        position: static;
+        margin: 3rem auto;
+        margin-left: 30%;
+        
+        
+    }
+
+    .info-details {
+        width: 80%;
+        margin: 3rem auto;
+    }
+
+
+    .arrow-down {
+        display: none;
+      }
+      .arrow-down:after {
+        display: none;
+      }
+    
+      .line2 {
+        display: none;
+      }
+   
+  }
+
+
+
+/* ----------------MEDIUM-SCREEN-------------------- */
+
+
+  @media screen and (max-width:640px) {
+
+
+    .container {
+        width: 90%;
+        margin-right: 0;
+        margin: 0 auto;
+        display: block;
+        
+    }
+
+      /* -------------left-section-------------- */
+
+    .left {
+        display: block;
+        width: 100%;
+        min-height: 0;
+        height: 20%;
+        background-image:none;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+    }
+
+    /* -------------right-section-------------- */
+    .right {
+        display: inline-block;
+        width: 100%;
+        margin: 0 auto;
+        color: #000000;
+    }
+    
+    .heading-info p {
+        position: relative;
+        top: 14rem;
+        left:5rem;
+        color: #575756;
+        font-size: 1.1rem;
+      }
+      
+      .heading-info h1 {
+          font-family: 'Merriweather';
+          font-size: 4rem;
+          margin-top: 4rem;
+      }
+      
+      .heading-info h1 span:first-child {
+            display: inline-block;
+            color: white;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+          
+      }
+      
+      .heading-info h1 span:last-child {
+          display: inline-block;
+          color:#333333;
+          position: relative;
+          bottom: 1rem;
+          left: 8rem;
+      }
+
+
+      .check-btn {
+        text-align: start;
+        margin-top: 2rem;
+    }
+
+    .check-btn button {
+        display: inline-block;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        color: #ffffff;
+        background-color: #333333;
+        border: none;
+    }
+
+   /* -------------right-info-section-------------- */
+
+    .info-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    
+    .info-section .line {
+        display: none;
+    }
+
+    .skills {
+        width: 80%;
+        position: static;
+        margin: 0 auto;
+        margin-left: 30%;
+        
+        
+    }
+
+    .info-details {
+        width: 80%;
+        margin: 3rem auto;
+    }
+
+
+    .arrow-down {
+        display: none;
+      }
+      .arrow-down:after {
+        display: none;
+      }
+    
+      .line2 {
+        display: none;
+      }
+   
+  }
