@@ -416,7 +416,7 @@ nav a:hover {
         width: 80%;
         position: static;
         margin: 3rem auto;
-        margin-left: 30%;
+        margin-left: 40%;
         
         
     }
@@ -538,7 +538,7 @@ nav a:hover {
         width: 80%;
         position: static;
         margin: 0 auto;
-        margin-left: 30%;
+        margin-left: 20%;
         
         
     }
@@ -561,3 +561,6 @@ nav a:hover {
       }
    
   }
+
+
+  
